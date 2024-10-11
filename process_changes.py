@@ -49,14 +49,32 @@ CURRENT_DATE_AND_TIME: str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 @log_execution_time
 def submit_to_wayback_machine(url: str):
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
-    try:
-        save_api = WaybackMachineSaveAPI(url, user_agent)
-        wayback_url = save_api.save()
-        logging.info(f'Wayback Saved: {wayback_url}')
-    except Exception as e:
-        # 非关键路径，容忍失败
-        logging.warning(f"submit to wayback machine failed, skipping, url={url}")
-        logging.exception(e)
+    max_retries = 2  # 最大重试次数
+    mirrors = [
+        "https://pypi.tuna.tsinghua.edu.cn/simple/",
+        "http://pypi.douban.com/simple/",
+        "http://mirrors.aliyun.com/pypi/simple/",
+        "https://pypi.mirrors.ustc.edu.cn/simple/",
+        "http://pypi.mirrors.ustc.edu.cn/simple/"
+    ]
+
+    for mirror in mirrors:
+        for attempt in range(max_retries):
+            try:
+                save_api = WaybackMachineSaveAPI(url, user_agent)
+                wayback_url = save_api.save()
+                logging.info(f'Wayback Saved: {wayback_url}')
+                return # 成功后退出函数
+            except Exception as e:
+                # 非关键路径，容忍失败
+                logging.warning(f"Attempt {attempt + 1} failed to submit to {mirror} for url={url}")
+                logging.exception(e)
+                if attempt < max_retries - 1:
+                    time.sleep(2 ** attempt)  # 指数退避策略
+                else:
+                    logging.error(f"All attempts to submit to {mirror} failed for url={url}")
+
+    logging.error(f"All mirrors failed for url={url}")
 
 @log_execution_time
 def get_text_content(url: str) -> str:
