@@ -253,7 +253,7 @@ def process_bookmark_file():
         with open(get_summary_file_path(title, timestamp=timestamp), 'w', encoding='utf-8') as f:
             f.write(summary_file_content)
         
-        # Update bookmark-summary/README.md
+        # Update bookmark-osmos-summary/README.md
         summarized_bookmarks.append(SummarizedBookmark(
             month=CURRENT_MONTH,
             title=title,
