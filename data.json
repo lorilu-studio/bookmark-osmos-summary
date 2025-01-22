@@ -34,5 +34,11 @@
     "title": "使用mdbook构筑你自己的电子笔记",
     "url": "https://www.aye10032.com/2023/09/12/2023-09-12-mdbook/",
     "timestamp": 1737472984
+  },
+  {
+    "month": "202501",
+    "title": "docker-compose管理容器 - DevOps学习笔记",
+    "url": "https://wnote.com/notes/devops/base/docker-compose.html",
+    "timestamp": 1737558233
   }
 ]
