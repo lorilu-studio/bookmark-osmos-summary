@@ -46,5 +46,11 @@
     "title": "electron项目icon显示异常",
     "url": "https://www.cnblogs.com/xwwin/p/16581249.html",
     "timestamp": 1739427661
+  },
+  {
+    "month": "202502",
+    "title": "Intel B580 GPU 大模型容器推理实践：以 DeepSeek R1 Distill Qwen 7B 为例（一）",
+    "url": "https://soulteary.com/2025/02/07/intel-b580-gpu-with-docker-and-deepseek-r1-distill-qwen-7b.html",
+    "timestamp": 1739703573
   }
 ]
