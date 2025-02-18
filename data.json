@@ -52,5 +52,11 @@
     "title": "Intel B580 GPU 大模型容器推理实践：以 DeepSeek R1 Distill Qwen 7B 为例（一）",
     "url": "https://soulteary.com/2025/02/07/intel-b580-gpu-with-docker-and-deepseek-r1-distill-qwen-7b.html",
     "timestamp": 1739703573
+  },
+  {
+    "month": "202502",
+    "title": "我是如何在electron上调用dll的导出函数的 - node-addon-api_electron dll-CSDN博客",
+    "url": "https://blog.csdn.net/LingMo_2020/article/details/143130728",
+    "timestamp": 1739850723
   }
 ]
