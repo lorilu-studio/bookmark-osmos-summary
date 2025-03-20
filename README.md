@@ -2,6 +2,7 @@
 读取 bookmark-osmos 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-osmos 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-20) [【Outline】纯Docker部署指南](202503/2025-03-20-%E3%80%90outline%E3%80%91%E7%BA%AFdocker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md)
 - (2025-03-20) [从零开始使用开源文档/Wiki软件 Outline（二）](202503/2025-03-20-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E5%BC%80%E6%BA%90%E6%96%87%E6%A1%A3-wiki%E8%BD%AF%E4%BB%B6-outline%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 - (2025-03-18) [🔥截止目前，国内仍然可用docker镜像加速器汇总（2025年3月）](202503/2025-03-18-%F0%9F%94%A5%E6%88%AA%E6%AD%A2%E7%9B%AE%E5%89%8D%EF%BC%8C%E5%9B%BD%E5%86%85%E4%BB%8D%E7%84%B6%E5%8F%AF%E7%94%A8docker%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E5%99%A8%E6%B1%87%E6%80%BB%EF%BC%882025%E5%B9%B43%E6%9C%88%EF%BC%89.md)
 - (2025-02-24) [How to install ADB on Windows, macOS, and Linux](202502/2025-02-24-how-to-install-adb-on-windows%2C-macos%2C-and-linux.md)
