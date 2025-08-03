@@ -2,6 +2,7 @@
 读取 bookmark-osmos 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-osmos 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-08-03) [POETIZE - 最美博客](202508/2025-08-03-poetize---%E6%9C%80%E7%BE%8E%E5%8D%9A%E5%AE%A2.md)
 - (2025-07-17) [HEXO系列教程 | 将Qexo接入Hexo，实现静态博客的动态管理！ – 夜梦星尘の折腾日记](202507/2025-07-17-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B-%E5%B0%86qexo%E6%8E%A5%E5%85%A5hexo%EF%BC%8C%E5%AE%9E%E7%8E%B0%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%8A%A8%E6%80%81%E7%AE%A1%E7%90%86%EF%BC%81-%E2%80%93-%E5%A4%9C%E6%A2%A6%E6%98%9F%E5%B0%98%E3%81%AE%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0.md)
 - (2025-03-20) [【Outline】纯Docker部署指南](202503/2025-03-20-%E3%80%90outline%E3%80%91%E7%BA%AFdocker%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97.md)
 - (2025-03-20) [从零开始使用开源文档/Wiki软件 Outline（二）](202503/2025-03-20-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8%E5%BC%80%E6%BA%90%E6%96%87%E6%A1%A3-wiki%E8%BD%AF%E4%BB%B6-outline%EF%BC%88%E4%BA%8C%EF%BC%89.md)
