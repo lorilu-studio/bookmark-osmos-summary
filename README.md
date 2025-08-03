@@ -2,6 +2,7 @@
 读取 bookmark-osmos 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-osmos 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-08-03) [书籍推荐Prompt - 飞书云文档](202508/2025-08-03-%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90prompt---%E9%A3%9E%E4%B9%A6%E4%BA%91%E6%96%87%E6%A1%A3.md)
 - (2025-08-03) [信息归处，一目了然：用 Glance 打造家庭服务器仪表盘 - 少数派](202508/2025-08-03-%E4%BF%A1%E6%81%AF%E5%BD%92%E5%A4%84%EF%BC%8C%E4%B8%80%E7%9B%AE%E4%BA%86%E7%84%B6%EF%BC%9A%E7%94%A8-glance-%E6%89%93%E9%80%A0%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BB%AA%E8%A1%A8%E7%9B%98---%E5%B0%91%E6%95%B0%E6%B4%BE.md)
 - (2025-08-03) [POETIZE - 最美博客](202508/2025-08-03-poetize---%E6%9C%80%E7%BE%8E%E5%8D%9A%E5%AE%A2.md)
 - (2025-07-17) [HEXO系列教程 | 将Qexo接入Hexo，实现静态博客的动态管理！ – 夜梦星尘の折腾日记](202507/2025-07-17-hexo%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B-%E5%B0%86qexo%E6%8E%A5%E5%85%A5hexo%EF%BC%8C%E5%AE%9E%E7%8E%B0%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%8A%A8%E6%80%81%E7%AE%A1%E7%90%86%EF%BC%81-%E2%80%93-%E5%A4%9C%E6%A2%A6%E6%98%9F%E5%B0%98%E3%81%AE%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0.md)
